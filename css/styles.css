@@ -302,7 +302,9 @@ input,select,textarea{font-family:inherit;font-size:1rem}
   .main-nav{position:fixed;inset:0;background:var(--cream);flex-direction:column;align-items:stretch;justify-content:center;padding:24px;transform:translateX(100%);transition:transform .4s var(--ease)}
   .main-nav.is-open{transform:translateX(0)}
   .main-nav ul{flex-direction:column;gap:26px;margin-bottom:30px;text-align:center}
-  .main-nav ul a{font-size:1.6rem;font-family:var(--font-display)}
+   .main-nav ul a{font-size:1.6rem;font-family:var(--font-display)}
+  .main-nav a:not(.nav-cta){color:var(--navy)}
+  .main-nav .nav-cta.btn-primary{background:var(--navy);color:var(--cream)}
   .main-nav .nav-cta{align-self:center}
   .menu-toggle{display:flex;position:relative;z-index:110}
   .problems,.dna,.cta-section{margin:0 12px}
