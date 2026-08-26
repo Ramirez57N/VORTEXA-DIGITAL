@@ -84,8 +84,8 @@ input,select,textarea{font-family:inherit;font-size:1rem}
 .btn:hover .btn-arrow{transform:translateX(6px)}
 
 /* ---------- header ---------- */
-.site-header{position:sticky;top:0;z-index:100;background:rgba(251,246,236,.78);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s ease,box-shadow .3s ease}
-.site-header.is-scrolled{border-bottom-color:rgba(23,35,59,.1);box-shadow:0 10px 26px rgba(23,35,59,.06)}
+.site-header{position:sticky;top:0;z-index:100;background:var(--navy);border-bottom:1px solid transparent;transition:border-color .3s ease,box-shadow .3s ease}
+.site-header.is-scrolled{border-bottom-color:rgba(251,246,236,.14);box-shadow:0 10px 26px rgba(0,0,0,.18)}
 .header-inner{max-width:var(--container);margin:0 auto;padding:20px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{display:flex;flex-direction:column;line-height:1;gap:4px}
 .logo-mark{font-family:var(--font-display);font-weight:700;font-size:1.55rem;letter-spacing:-.01em;color:var(--navy)}
