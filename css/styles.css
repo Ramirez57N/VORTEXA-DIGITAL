@@ -318,10 +318,4 @@ input,select,textarea{font-family:inherit;font-size:1rem}
   .problem-row p{grid-column:1/-1}
   .stats-grid{grid-template-columns:1fr}
 }
-/* Header: texto en rojo */
-.site-header .logo-mark,
-.site-header .logo-tag,
-.site-header .main-nav a:not(.nav-cta),
-.site-header .nav-cta.btn-primary {
-  color: red;
-}
+
