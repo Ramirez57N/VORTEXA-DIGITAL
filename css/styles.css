@@ -318,4 +318,11 @@ input,select,textarea{font-family:inherit;font-size:1rem}
   .problem-row p{grid-column:1/-1}
   .stats-grid{grid-template-columns:1fr}
 }
-
+.footer-credits{
+  max-width: var(--container);
+  margin: 8px auto 0;
+  padding: 0 var(--gutter);
+  font-size: .8rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
